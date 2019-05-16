@@ -19,9 +19,12 @@ class Dropdown {
     
     // Toggle the ".dropdown-hidden" class off and on
     this.content.classList.toggle("dropdown-hidden")
-    co
+    
   }
 }
+
+  TweenMax.to(".dropdown-content", 5, {top: 50, ease:Bounce.easeOut})
+
 
 
 // Nothing to do here, just study what the code is doing and move on to the Dropdown class

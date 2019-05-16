@@ -71,3 +71,8 @@ links = document.querySelectorAll(".tabs-link");
 links.forEach(link => {
   return new TabLink(link);
 });
+
+
+class Tab extends TabLink {
+  
+}
